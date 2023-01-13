@@ -69,6 +69,7 @@ html {
     width: 15rem;
     z-index: 1;
     overflow: scroll;
+    border-right: 1px solid #28272e;
 }
 
 .toggle-btn span{
@@ -87,72 +88,18 @@ html {
     margin-bottom: 1rem;
 }
 
+.nav-link:hover {
+    color: #5d5c64 !important;
+}
+
+.logo img {
+    width: 80px;
+}
+
 @media (min-width: 992px) {
-
-    .nav-menu a {
-        /* width: 56px; */
-    }
-
-    .nav-menu a span {
-        /* display: none; */
-    }
 
     .main-body {
         margin-left: 17rem;
         margin-right: 2rem;
     }
 }
-
-/*
-.nav-menu a {
-    display: flex;
-    align-items: center;
-    color: #45505b;
-    padding: 10px 18px;
-    margin-bottom: 8px;
-    font-size: 15px;
-    border-radius: 50px;
-    background-color: #f2f3f5;
-    height: 55px;
-    overflow: hidden;
-    transition: 0.3s;
-}
-
-.nav-menu a i {
-    font-size: 20px;
-}
-
-.nav-menu a span {
-    padding: 0 3px 0 8px;
-}
-
-@media (min-width: 992px) {
-
-    .nav-menu a {
-        width: 56px;
-    }
-
-    .nav-menu a span {
-        display: none;
-    }
-
-    .main-body {
-        margin-left: 10rem;
-        margin-right: 2rem;
-    }
-}
-
-.nav-menu a:hover {
-    width: 100%;
-    color: white;
-    background-color: #0563bb;
-}
-
-.nav-menu a:hover span {
-    display: block;
-}
-
-.logo img {
-    width: 80px;
-}
-*/
