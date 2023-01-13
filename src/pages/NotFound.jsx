@@ -5,17 +5,20 @@ function NotFound() {
   return (
     <>
       <Box
-        w="100%"
+        w="80%"
         h="90vh"
         display="flex"
         justifyContent="center"
-        alignItems="center"
+        alignItems="flex-end"
         flexDirection="column"
+        color="white"
       >
         <Text fontSize="5rem" margin="0px">
           404:
         </Text>
-        <Text fontSize="2rem">Page Not Found</Text>
+        <Text fontSize="2rem" margin="0px">
+          Page Not Found
+        </Text>
       </Box>
     </>
   );
