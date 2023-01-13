@@ -10,14 +10,23 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
+
+html {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
 .nav-btn{
     padding: 0.6rem 1rem;
     border-radius: 50px;
-    border-color: darkorange;
+    border-color: #f89e1b;
     color: white;
     font-weight: bold;
     margin-left: 1rem;
-    background-color: darkorange;
+    background-color: #f89e1b;
     outline: none;
 }
 
@@ -28,7 +37,7 @@ body{
     flex-direction: column;
     padding: 1rem;
     margin: 1rem;
-    border: 0.1rem solid silver;
+    border: 0.1rem solid #515058;
     border-radius: 10px;
     color: white;
     backdrop-filter: blur(3px);
@@ -47,36 +56,51 @@ body{
 .main-heading {
     display: flex;
     justify-content: center;
-    color:  darkorange;
+    color:  #f89e1b;
     margin: 1rem;
 }
 
 .main-nav {
+    position: fixed;
+    top: 0;
+    bottom: 0;
     padding: 15px;
-    background-color: #0563bb;
-    width: 240px;
-    height: 97vh;
+    background-color: #0e0d17;
+    width: 15rem;
+    z-index: 1;
+    overflow: scroll;
 }
 
 .toggle-btn span{
-    /* color: white !important; */
     background-color: #f2f3f5;
     color: black;
-}
-
-.navbar {
-    padding: 10px 10px;
-}
-
-.nav-menu {
-    padding: 0;
-    display: block;
 }
 
 .nav-list {
     margin: 0;
     padding: 0;
     list-style: none;
+    color: white;
+}
+
+.nav-link {
+    margin-bottom: 1rem;
+}
+
+@media (min-width: 992px) {
+
+    .nav-menu a {
+        /* width: 56px; */
+    }
+
+    .nav-menu a span {
+        /* display: none; */
+    }
+
+    .main-body {
+        margin-left: 17rem;
+        margin-right: 2rem;
+    }
 }
 
 /*

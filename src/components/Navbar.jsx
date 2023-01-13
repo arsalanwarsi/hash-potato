@@ -1,6 +1,8 @@
 import React from "react";
+import NavLink from "./NavLink";
 
-export default function Navbar() {
+export default function Navbar(props) {
+  const { route } = props;
   return (
     <>
       <div>
@@ -26,49 +28,17 @@ export default function Navbar() {
             <div className="collapse navbar-collapse" id="navbarNav">
               <div className="main-nav">
                 <div className="navbar nav-menu">
-                  <ul className="nav-list">
-                    <li>
-                      <a href="index.php" className="nav-link">
-                        <i className="bx bx-home"></i>
-                        <span>Home</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="profile.php" className="nav-link scrollto">
-                        <i className="bx bx-id-card"></i>
-                        <span>About</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="courses.php" className="nav-link scrollto">
-                        <i className="bx bx-book-content"></i>
-                        <span>Courses</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="announcement.php" className="nav-link scrollto">
-                        <i className="bx bxs-bell-ring"></i>
-                        <span>Announcement</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="notice.php" className="nav-link scrollto">
-                        <i className="bx bx-notification"></i>
-                        <span>Notification</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="password.php" className="nav-link scrollto">
-                        <i className="bx bx-user"></i>
-                        <span>Password</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="logout.php" className="nav-link scrollto">
-                        <i className="bx bx-log-out"></i>
-                        <span>Logout</span>
-                      </a>
-                    </li>
+                  <ul className="nav-list w-100">
+                    {route.map((value, key) => {
+                      return (
+                        <NavLink
+                          key={key}
+                          name={value.name}
+                          path={value.path}
+                          icon={value.icon}
+                        />
+                      );
+                    })}
                   </ul>
                 </div>
               </div>
