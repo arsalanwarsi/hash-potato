@@ -1,33 +1,46 @@
+import dashboardPng from "./assets/pics/dashboard.png";
+import analyticsPng from "./assets/pics/analytics.png";
+import stakePng from "./assets/pics/stake.png";
+import bondPng from "./assets/pics/bond.png";
+import buyPng from "./assets/pics/buy.png";
+import chatPng from "./assets/pics/chart.png";
+import docPng from "./assets/pics/doc.png";
+
 const routes = [
     {
         name: "Dashboard",
         path: "/",
-        icon: "/"
+        icon: dashboardPng
     },
     {
-        name: "Dashboard",
+        name: "Analytics",
         path: "/",
-        icon: "/"
+        icon: analyticsPng
     },
     {
-        name: "Dashboard",
+        name: "Stake",
         path: "/",
-        icon: "/"
+        icon: stakePng
     },
     {
-        name: "Dashboard",
+        name: "Bond",
         path: "/",
-        icon: "/"
+        icon: bondPng
     },
     {
-        name: "Dashboard",
+        name: "Buy PASS",
         path: "/",
-        icon: "/"
+        icon: buyPng
     },
     {
-        name: "Dashboard",
+        name: "Price Chart",
         path: "/",
-        icon: "/"
+        icon: chatPng
+    },
+    {
+        name: "Documentation",
+        path: "/",
+        icon: docPng
     },
 ];
 
