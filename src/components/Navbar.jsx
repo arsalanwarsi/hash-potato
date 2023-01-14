@@ -29,7 +29,7 @@ export default function Navbar(props) {
               <div className="d-flex flex-column justify-content-between main-nav">
                 <div>
                   <div className="logo mb-2">
-                    <a href="/">
+                    <a href="https://arsalanwarsi.github.io/hash-potato/">
                       <img src={logo} alt="" />
                       <img src={logoText} className="ms-1 w-75" alt="" />
                     </a>
@@ -50,13 +50,13 @@ export default function Navbar(props) {
                   </ul>
                 </div>
                 <div className="footer-logo">
-                  <a href="/">
+                  <a href="https://arsalanwarsi.github.io/hash-potato/">
                     <img src={twitter} alt="" />
                   </a>
-                  <a href="/">
+                  <a href="https://arsalanwarsi.github.io/hash-potato/">
                     <img src={dics} alt="" />
                   </a>
-                  <a href="/">
+                  <a href="https://arsalanwarsi.github.io/hash-potato/">
                     <img src={tel} alt="" />
                   </a>
                 </div>
