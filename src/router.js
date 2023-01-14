@@ -9,67 +9,67 @@ import docPng from "./assets/pics/doc.png";
 const routes = [
     {
         name: "Dashboard",
-        path: "/",
+        path: "https://arsalanwarsi.github.io/hash-potato/",
         icon: dashboardPng
     },
     {
         name: "Analytics",
-        path: "/",
+        path: "https://arsalanwarsi.github.io/hash-potato/",
         icon: analyticsPng
     },
     {
         name: "Stake",
-        path: "/",
+        path: "https://arsalanwarsi.github.io/hash-potato/",
         icon: stakePng
     },
     {
         name: "Bond",
-        path: "/",
+        path: "https://arsalanwarsi.github.io/hash-potato/",
         icon: bondPng
     },
     {
         name: "Bond Discount",
-        path: "/",
+        path: "https://arsalanwarsi.github.io/hash-potato/",
         icon: null
     },
     {
         name: "XIV-BNB LP -16.28%",
-        path: "/",
+        path: "https://arsalanwarsi.github.io/hash-potato/",
         icon: null
     },
     {
         name: "PASS-BNB LP -16.28%",
-        path: "/",
+        path: "https://arsalanwarsi.github.io/hash-potato/",
         icon: null
     },
     {
         name: "XIV -16.28%",
-        path: "/",
+        path: "https://arsalanwarsi.github.io/hash-potato/",
         icon: null
     },
     {
         name: "BNB -16.28%",
-        path: "/",
+        path: "https://arsalanwarsi.github.io/hash-potato/",
         icon: null
     },
     {
         name: "BUSD -16.28%",
-        path: "/",
+        path: "https://arsalanwarsi.github.io/hash-potato/",
         icon: null
     },
     {
         name: "Buy PASS",
-        path: "/",
+        path: "https://arsalanwarsi.github.io/hash-potato/",
         icon: buyPng
     },
     {
         name: "Price Chart",
-        path: "/",
+        path: "https://arsalanwarsi.github.io/hash-potato/",
         icon: chatPng
     },
     {
         name: "Documentation",
-        path: "/",
+        path: "https://arsalanwarsi.github.io/hash-potato/",
         icon: docPng
     },
 ];
