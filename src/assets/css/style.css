@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body{
+    padding: 0px;
+    margin: 0px;
+    background-image: url("../pics/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Poppins', sans-serif;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+html {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+.nav-btn{
+    padding: 0.6rem 1rem;
+    border-radius: 50px;
+    border-color: #f89e1b;
+    color: white;
+    font-weight: bold;
+    margin-left: 1rem;
+    background-color: #f89e1b;
+    outline: none;
+}
+
+.main-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem;
+    margin: 1rem;
+    border: 0.1rem solid #515058;
+    border-radius: 10px;
+    color: white;
+    backdrop-filter: blur(3px);
+    cursor: pointer;
+    /* max-width: 25rem; */
+}
+
+.main-card p{
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin: 0.2rem;
+}
+
+.main-card p:last-child {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.main-heading {
+    display: flex;
+    justify-content: center;
+    color:  #f89e1b;
+    margin: 1rem;
+    font-weight: bold;
+}
+
+.main-nav {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    padding: 15px;
+    background-color: #0e0d17;
+    width: 15rem;
+    z-index: 1;
+    overflow: scroll;
+    border-right: 1px solid #28272e;
+}
+
+.toggle-btn span{
+    background-color: #f89e1b;
+    border-radius: 10px;
+    position: fixed;
+    right: 4%;
+    top: 4%;
+}
+
+.nav-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: white;
+}
+
+.nav-link img {
+    width: 1.1rem;
+    height: 1.1rem;
+    margin-right: 1.3rem;
+}
+
+.nav-link span{
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: #5d5c64 !important;
+}
+
+.logo img{
+    width: 2.5rem;
+}
+
+.footer-logo {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+}
+
+.footer-logo img {
+    width: 1.3rem;
+}
+
+.nav-space {
+    margin: 0 1.2rem;
+}
+
+@media (min-width: 992px) {
+
+    .main-body {
+        margin-left: 17rem;
+        margin-right: 2rem;
+    }
+}
