@@ -6,7 +6,11 @@ export default function NavLink(props) {
       <li>
         <a href={props.path} className="nav-link mb-3">
           <div className="d-flex align-items-center">
-            <img src={props.icon} alt="" />
+            {props.icon ? (
+              <img src={props.icon} alt="" />
+            ) : (
+              <div className="nav-space"></div>
+            )}
             <span>{props.name}</span>
           </div>
         </a>

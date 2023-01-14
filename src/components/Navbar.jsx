@@ -27,12 +27,14 @@ export default function Navbar(props) {
 
             <div className="collapse navbar-collapse" id="navbarNav">
               <div className="d-flex flex-column justify-content-between main-nav">
-                <a href="/">
-                  <div className="logo">
-                    <img src={logo} alt="" />
-                    <img src={logoText} className="ms-1 w-75" alt="" />
+                <div>
+                  <div className="logo mb-2">
+                    <a href="/">
+                      <img src={logo} alt="" />
+                      <img src={logoText} className="ms-1 w-75" alt="" />
+                    </a>
                   </div>
-                </a>
+                </div>
                 <div className="navbar nav-menu">
                   <ul className="nav-list w-100">
                     {route.map((value, key) => {

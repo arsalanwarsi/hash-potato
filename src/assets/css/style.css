@@ -48,6 +48,7 @@ html {
 .main-card p{
     font-size: 1.3rem;
     font-weight: 500;
+    margin: 0.2rem;
 }
 
 .main-card p:last-child {
@@ -96,6 +97,10 @@ html {
     margin-right: 1.3rem;
 }
 
+.nav-link span{
+    font-weight: 500;
+}
+
 .nav-link:hover {
     color: #5d5c64 !important;
 }
@@ -112,6 +117,10 @@ html {
 
 .footer-logo img {
     width: 1.3rem;
+}
+
+.nav-space {
+    margin: 0 1.2rem;
 }
 
 @media (min-width: 992px) {

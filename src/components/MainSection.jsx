@@ -13,7 +13,7 @@ export default function MainSection() {
     <>
       <div>
         <h2 className="main-heading">EPOCH STAKING</h2>
-        <div className="container">
+        <div className="container w-75">
           <div className="row">
             {card.map((data, key) => {
               return <Card key={key} title={data.title} value={data.value} />;

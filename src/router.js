@@ -28,6 +28,36 @@ const routes = [
         icon: bondPng
     },
     {
+        name: "Bond Discount",
+        path: "/",
+        icon: null
+    },
+    {
+        name: "XIV-BNB LP -16.28%",
+        path: "/",
+        icon: null
+    },
+    {
+        name: "PASS-BNB LP -16.28%",
+        path: "/",
+        icon: null
+    },
+    {
+        name: "XIV -16.28%",
+        path: "/",
+        icon: null
+    },
+    {
+        name: "BNB -16.28%",
+        path: "/",
+        icon: null
+    },
+    {
+        name: "BUSD -16.28%",
+        path: "/",
+        icon: null
+    },
+    {
         name: "Buy PASS",
         path: "/",
         icon: buyPng
