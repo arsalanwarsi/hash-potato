@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/hash-potato/static/css/main.d5d030de.css",
+    "main.js": "/hash-potato/static/js/main.f6bc43fe.js",
+    "static/media/bg.png": "/hash-potato/static/media/bg.f92c18a3c0204f07ca0a.png",
+    "index.html": "/hash-potato/index.html",
+    "main.d5d030de.css.map": "/hash-potato/static/css/main.d5d030de.css.map",
+    "main.f6bc43fe.js.map": "/hash-potato/static/js/main.f6bc43fe.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d5d030de.css",
+    "static/js/main.f6bc43fe.js"
+  ]
+}
